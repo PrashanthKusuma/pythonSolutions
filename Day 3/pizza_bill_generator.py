@@ -28,9 +28,7 @@ elif size == 'L':
 if pepparoni == 'Y':
   if size == 'S':
     price += 2
-  elif size == 'M':
-    price += 3
-  elif size == 'L':
+  else:
     price += 3
 
 if extra_cheese == 'Y':
